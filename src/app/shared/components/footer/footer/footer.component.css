@@ -1,0 +1,102 @@
+
+footer {
+	background-color: #000000;
+	color: #fff;
+	padding-top: 55px;
+
+
+   bottom:0px;
+  }
+  
+  .footer-top {
+	text-align: center;
+	padding-left: 20%;
+    padding-right: 20%;
+  }
+  
+  #newsletter-form {
+	margin-top: 20px;
+  }
+  
+  input[type="email"] {
+	padding: 9px;
+	width: 78%;
+	border: 1px solid #ccc;
+	display: inline-block;
+	margin-right: 19px;
+  }
+  
+  button[type="submit"] {
+	padding: 10px 20px;
+	background-color: #feee00;
+	color: #333;
+	border: none;
+	cursor: pointer;
+  }
+  
+  button[type="submit"]:disabled {
+	background-color: #ccc;
+	cursor: not-allowed;
+  }
+
+  .checkbox {
+	margin-top: 20px;
+	text-align: start;
+	
+  }
+  
+  input[type="checkbox"] {
+	margin-right: 5px;
+  }
+  
+  .border-top-bottom {
+	border-top: 1px solid #feee00;
+	border-bottom: 1px solid #feee00;
+	padding: 10px 0;
+  }
+
+  .h2 {
+    font-size: 2.125em;
+}
+
+.footer-copy {
+    width: 100%;
+    text-align: center;
+    background: #363636;
+    padding: 10px;
+    color: #fff!important;
+}
+.grow1 { flex-grow: 1; 
+    padding-top: 20px;
+	text-align: center;}
+
+.footer-bootom {
+	width: 100%;
+	display: flex;
+	gap: 16px;
+  }
+
+  ul {
+	list-style: none;
+	margin-left: 18%;
+    text-align: initial;
+	color: #787878;
+}
+  
+  .inferior{
+	font-weight: bold;
+  }
+
+
+  .redes-sociales {
+	list-style: none; 
+	padding: 0; 
+	display: flex; 
+	justify-content: space-evenly;
+  }
+
+  @media (max-width: 700px) {
+	.hide-md {
+	  display: none !important;
+	}
+  }

@@ -1,0 +1,118 @@
+.header {
+
+  .header-top {
+    background: #feee00;
+    height: 40px;
+    width: 100%;
+    z-index: 99999;
+    display: block;
+  }
+  .container{
+		transition: all .45s cubic-bezier(.29,.63,.44,1);
+		position: relative;
+		overflow: hidden;
+		.menu-right {
+			float: right;
+			display: inline;
+			margin-right: 30px;
+			padding-top: 7px;
+			vertical-align: middle;
+		}
+  }
+}
+
+div {
+  display: block;
+}
+
+body,
+input,
+textarea,
+button,
+select {
+  font-size: 15px;
+  font-family: DIN Next, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #3d4246;
+  line-height: 1.5;
+}
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.list-icons {
+    color: #000;
+    padding: 10px;
+    display: inline;
+    font-size: 14px;
+    font-weight: 900;
+	vertical-align: middle;
+
+}
+
+li {
+    list-style: none;
+}
+.list-icon-left {
+    padding-top: 7px;
+    padding-left: 0em;
+    font-size: 1em!important;
+    font-weight: 900;
+	display: flex; 
+	align-items: center; 
+	
+}
+.list-icon-left a {
+    text-decoration: none;
+    color: black;
+	display: flex;
+    align-items: flex-start;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+    font-family: DIN Next,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #3d4246;
+    line-height: 0.5;
+  }
+
+.linktop span {
+    font-size: 10px;
+    font-weight: 200;
+    padding-right: 4.5px;
+    padding-top: 10px;
+    letter-spacing: .5px;
+}
+
+@media (min-width: 768px){
+.container {
+    max-width: 795px;
+}
+} 
+
+@media (min-width: 992px){
+  .container {
+    max-width: 960px;
+}
+}
+
+@media (max-width: 780px) {
+  .header {
+    display: none;
+  }
+}

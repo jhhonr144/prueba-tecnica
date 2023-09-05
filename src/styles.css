@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    display: block;
+    margin: 0px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+/* Estilo general del scroll */
+::-webkit-scrollbar {
+  width: 10px; /* Ancho del scrollbar */
+}
+
+/* Estilo del thumb (barra deslizante) */
+::-webkit-scrollbar-thumb {
+  background-color: yellow; /* Color de fondo del thumb */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilo de la pista (barra de fondo) */
+::-webkit-scrollbar-track {
+  background-color: black; /* Color de fondo de la pista */
+  border-radius: 5px; /* Bordes redondeados */
+}

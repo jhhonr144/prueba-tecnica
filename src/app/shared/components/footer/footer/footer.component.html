@@ -1,0 +1,56 @@
+<footer>
+  <div class="footer-top">
+    <h2 class="h2">INVICTA AL DíA</h2>
+    <p class="border-top-bottom">INSCRÍBETE A NUESTRO NEWSLETTER PARA CONOCER <br>
+      ACERCA DE NUESTRAS PROMOCIONES, EVENTOS Y DESCUENTOS VIGENTES </p>
+    <form id="subscribe-form" style="padding-top: 5%;">
+      <input type="email" [(ngModel)]="email" (input)="onEmailInputChange()" placeholder="Correo electrónico" required>
+      <button type="submit" [disabled]="isButtonDisabled">Suscribirse</button>
+    </form>
+    <div class="checkbox">
+      <input type="checkbox" [(ngModel)]="isCheckboxChecked" (change)="onCheckboxChange()" required>
+      <label for="checkbox">Autorizo el tratamiento de mis Datos personales.</label>
+    </div>
+  </div>
+
+  <div class="footer-mid">
+    <img
+      src="https://cdn.shopify.com/s/files/1/0250/1433/7599/files/banner-categoria-mexico-tiendas_Mesa_de_trabajo_1_copia_2.jpg?v=1585315781"
+      width="100%">
+  </div>
+
+  <div class="footer-bootom hide-md ">
+    <div class="grow1">
+      <h4 class="inferior">SERVICIO AL CLIENTE</h4>
+      <ul>
+        <li>Contactanos</li>
+        <li>Metodos de Pago</li>
+        <li>Cambios y Devoluciones</li>
+        <li>Cuía de Tallas</li>
+      </ul>
+    </div>
+    <div class="grow1">
+      <h4 class="inferior">NUESTRA EMPRESA</h4>
+      <ul>
+        <li>Quiéres Somos</li>
+        <li>Localizador de Tiendas</li>
+        <li>Cambios y Devoluciones</li>
+        <li>Prensa</li>
+      </ul>
+    </div>
+    <div class="grow1">
+      <h4 class="inferior">SIGUENOS</h4>
+      <ul class="redes-sociales">
+        <li><a href="#"><i class="fab fa-facebook text-white"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter text-white"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram text-white"></i></a></li>
+      </ul>
+    </div>
+
+  </div>
+  <app-footer-bottom></app-footer-bottom>
+  <div class="footer-copy">
+    <p class="footer-copy"> Copyright © 2023 <a href="/" title>Invicta Colombia</a>
+      - Todos los derechos reservados</p>
+  </div>
+</footer>

@@ -1,0 +1,118 @@
+.titulos1 {
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+	margin-bottom: 5%;
+}
+
+.text-center {
+    text-align: center!important;
+}
+.mat-h2, .mat-title, .mat-typography h2 {
+    font: 500 20px/32px Roboto, "Helvetica Neue", sans-serif;
+    letter-spacing: normal;
+}
+#productCarousel {
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+
+  .card {
+    position: relative;
+    text-align: center!important;
+    padding: 15px;
+    border-radius: 5px;
+    border: solid 1px #e7e7e7;
+    margin-bottom: 30px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.03); 
+    .product-title{
+        border-bottom: 2px solid #000;
+      }
+  }
+  
+  .card-title {
+    font-size: 1rem; 
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem; 
+  }
+  
+
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; 
+  }
+  
+  /* Estilo para las flechas de navegación */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #000000;
+    color: #040404; 
+    border-radius: 50%; 
+    font-size: 24px; 
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: transparent; 
+    width: 23px;
+    height: 50px; 
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 24px;
+    color: gray;
+    top: 50%;
+  }
+  
+  
+  /* Estilo para el indicador de diapositiva activa */
+  .carousel-indicators li {
+    background-color: #007bff; 
+    border: 2px solid #007bff; 
+  }
+  
+  /* Estilo para el título y precio */
+  .carousel-inner .card-title,
+  .carousel-inner .card-text {
+    text-align: center;
+  }
+  
+  /* Estilo para las imágenes de producto */
+  .card-img-top {
+    max-width: 100%; 
+    height: auto;
+  }
+  
+  /* Estilo para la descripción del descuento */
+  .card-text.discount {
+    color: #d9534f;
+    font-weight: bold;
+  }
+
+  .discount-price {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+  }
+
+  .layout {
+    display: flex;
+    gap: 16px;
+    place-content: center;
+  }

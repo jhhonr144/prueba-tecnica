@@ -1,0 +1,87 @@
+/* Estilo para el slider de Swiper */
+.swiper-container {
+	width: 100%; 
+	margin: 0 auto; 
+	position: relative;
+	overflow: hidden;
+	height: 350px;
+  }
+  
+ 
+  .swiper-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    justify-content: left;
+}
+  
+  .swiper-slide {
+	width: 100%; 
+	transition: transform 0.3s ease-in-out;
+	box-sizing: border-box;
+
+	text-align: center;
+  }
+  
+  /* Estilo para las flechas de navegación */
+  .swiper-button-next,
+  .swiper-button-prev {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 60px; 
+	height: 60px; 
+	background-color: rgba(0, 0, 0, 0.5); 
+	color: #fff; 
+	font-size: 24px; 
+	border-radius: 50%; 
+	cursor: pointer;
+	z-index: 1;
+	transition: background-color 0.3s ease-in-out;
+  }
+  
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+	background-color: rgba(0, 0, 0, 0.8); 
+  }
+  
+  .swiper-button-next {
+	right: 10px; 
+  }
+  
+  .swiper-button-prev {
+	left: 10px; 
+  }
+  
+  /* Estilo para la paginación (puntos) */
+  .swiper-pagination {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+  }
+  
+  .swiper-pagination-bullet {
+	width: 10px;
+	height: 10px;
+	background-color: rgba(0, 0, 0, 0.5); 
+	border-radius: 50%; 
+	margin: 0 5px; 
+	cursor: pointer;
+	opacity: 0.7;
+	transition: background-color 0.3s ease-in-out;
+  }
+  
+  .swiper-pagination-bullet-active {
+	background-color: #fff; 
+	opacity: 1;
+  }
+
+  
+  
